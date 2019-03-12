@@ -43,9 +43,9 @@ public class ArrayMactirx {
 			System.out.print(add[i][j]+" ");
 			if(add[i][j]>max) {
 				max = add[i][j];
+				addmax = addmax+max;
 			}
 		}
-		addmax = addmax+max;
 		System.out.println(" ");
 		System.out.println("max value in"+max+"row="+max);
 		System.out.println("max value"+add1+"+"+max+"add="+addmax);
