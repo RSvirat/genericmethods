@@ -10,7 +10,7 @@ public class genericsample {
 		ArrayList<GenericClass> arl = new ArrayList<GenericClass>();
 		gc.setName(name);
 		gc.setNum(num);
-		arl.add(gc);
+		arl.add(gc):
 		System.out.println("Name="+gc.getName());
 		System.out.println("Number="+gc.getNum());
 		System.out.println("arraysize="+arl.size());
