@@ -7,7 +7,7 @@ import java.security.spec.InvalidKeySpecException;
 
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.PBEKeySpec;
-
+// ghfghfghfghf
 public class PasswordEncryt {
 	public static void main(String args[]) throws NoSuchAlgorithmException, InvalidKeySpecException{
 		String originalpass = "Trans@1234";
