@@ -40,6 +40,7 @@ public class multitheard{
 		Thread t1 = new multithrd();
 		Thread t2 = new hi();
 		Thread t3 = new join();
+		int i = 0;
 		t2.start();
 		try {
 			t1.join();
